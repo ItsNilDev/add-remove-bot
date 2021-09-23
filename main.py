@@ -24,7 +24,7 @@ def update_members(message):
             should_be_kicked = []
             date_now = date.strftime("%Y-%m-%d")
             for line in database:
-                # goddam regex :woozy_face:
+                # Regex, Regex, Regex :woozy_face:
                 x = re.search(": ([\S]*)$", line)
                 if(x.group(1).strip()):
                     d1 = datetime.datetime.strptime(x.group(1).strip(), "%Y-%m-%d")
