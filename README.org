@@ -1,3 +1,4 @@
 #+TITLE: Add_Remove bot
 
-Just a telegram bot that I made for my telegram channel.
+A telegram bot that I made for my telegram channel.
+(Just another unfinished project :) ) 
